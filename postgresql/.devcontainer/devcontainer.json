@@ -1,9 +1,0 @@
-{
-  "name": "PostgreSQL Course",
-  "dockerComposeFile": "docker-compose.yml",
-  "service": "db",
-  "workspaceFolder": "/workspace",
-  "extensions": ["ms-azuretools.vscode-docker", "mtxr.sqltools", "mtxr.sqltools-driver-pg"],
-  "forwardPorts": [5432],
-  "postCreateCommand": "psql -U postgres -f schema/ecommerce_schema.sql && psql -U postgres -f schema/seed_data.sql"
-}
