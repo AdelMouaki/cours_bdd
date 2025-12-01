@@ -64,6 +64,7 @@ CROSS JOIN produits p;
  - Affiche les produits commandés par "Alice Dupont".
  - Affiche les clients qui n’ont jamais passé de commande.
  - Affiche toutes les commandes avec les produits associés et la quantité commandée.
+ 
  - Affiche les clients et les produits qu’ils ont commandés, en utilisant une jointure multiple.
  - Affiche toutes les commandes, même celles sans client (test avec FULL OUTER JOIN).
  - Affiche toutes les combinaisons possibles entre clients et produits (CROSS JOIN).
